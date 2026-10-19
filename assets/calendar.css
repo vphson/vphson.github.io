@@ -1,0 +1,21 @@
+/* Trang lịch âm: sinh từ scripts/site/lunar.swift, dùng token màu của legal.css */
+.day-card { margin: 8px 0 24px; padding: 20px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
+.day-card p { margin: 0 0 6px; }
+.day-card-label { color: var(--muted); font-size: 15px; }
+.day-card-main { font-size: 26px; font-weight: 700; line-height: 1.3; color: var(--accent); }
+.day-card-main a { color: inherit; text-decoration: none; }
+.countdown { font-weight: 600; }
+.facts { border-collapse: collapse; }
+.facts th { text-align: left; font-weight: 400; color: var(--muted); padding: 4px 24px 4px 0; }
+.facts td { font-weight: 600; padding: 4px 0; }
+.month { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--surface); border-radius: 14px; overflow: hidden; }
+.month th { text-align: center; font-size: 13px; font-weight: 500; color: var(--muted); padding: 10px 0 4px; }
+.month td { text-align: center; padding: 2px; }
+.month a { display: block; padding: 6px 0; border-radius: 10px; text-decoration: none; color: var(--text); }
+.month a:hover { background: var(--accent-soft); }
+.month .s { display: block; font-size: 19px; line-height: 1.2; }
+.month .l { display: block; font-size: 12px; color: var(--muted); }
+.month .hl .l { color: var(--accent); font-weight: 700; }
+.months { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+.months a { display: block; text-align: center; padding: 8px 0; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; }
+.pager { display: flex; justify-content: space-between; gap: 12px; margin: 32px 0 0; font-size: 15px; }
